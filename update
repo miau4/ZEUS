@@ -1,7 +1,7 @@
-{ "Version": 6, 
+{ "Version": 0, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
-"UrlUpdate": "", 
+"UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
 "Sms": "", 
 "logoonline": "https://i.imgur.com/WaO2dvY.png", 
 "fundoonline": "https://i.ibb.co/5LdPdK5/188b510d-ac36-4872-af76-213548b26b72.jpg", 
@@ -13,7 +13,7 @@
 "Udp": [ { "Porta": "7100;7200;7300" } ], 
 "Servers":[
         {
-            "Name": "TESTE",
+            "Name": "ZEUS⭐",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "netsimon.online",
