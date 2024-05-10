@@ -99,7 +99,7 @@
         {
             "Name": "Tim Recarga Expirada-Valida S1",
             "FLAG": "tim",
-            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]@@@[protocol][crlf][crlf][crlf]@@@MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Referer: http://www.google.com[crlf]@@@ACL http://209.14.71.31;1.1.1.1;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]@@@ACL / HTTP/1.1[lf]Host: [lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]",
+            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "149.78.185.242",
