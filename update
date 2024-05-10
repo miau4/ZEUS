@@ -1,4 +1,4 @@
-{ "Version": 5, 
+{ "Version": 6, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -66,7 +66,6 @@
             "ProxyPort": "80",
             "Info": "Proxy"
         },
-
         {
             "Name": "Vivo Easy 2",
             "FLAG": "vivo",
@@ -100,7 +99,7 @@
         {
             "Name": "Tim Recarga Expirada-Valida S1",
             "FLAG": "tim",
-            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]@@@[protocol][crlf] [crlf][crlf]@@@GET / HTTP/1.1[crlf]Host: @[rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forward-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forwarded-For: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.ti",
+            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]@@@[protocol][crlf][crlf][crlf]@@@MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Referer: http://www.google.com[crlf]@@@ACL http://209.14.71.31;1.1.1.1;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]@@@ACL / HTTP/1.1[lf]Host: [lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "149.78.185.242",
