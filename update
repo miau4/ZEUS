@@ -1,4 +1,4 @@
-{ "Version": 7, 
+{ "Version": 8, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -37,7 +37,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Pré 2",
+            "Name": "Vivo Pré 2(s1+s2)",
             "FLAG": "vivo",
             "Payload": "[delay_split]PUT http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
             "SNI": "",
@@ -47,7 +47,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Pré netsimon2 8080",
+            "Name": "Vivo Pré S2",
             "FLAG": "vivo",
             "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
@@ -57,7 +57,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Easy",
+            "Name": "Vivo Planos 1",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: netsimon.online[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
@@ -67,7 +67,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Easy 2",
+            "Name": "Vivo Planos 2",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: netsimon.online[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
@@ -77,17 +77,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Easy-Controle-Pós-cdn",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=1.netsimon.online;2.netsimon.online;3.netsimon.online;4.netsimon.online;5.netsimon.online;6.netsimon.online;7.netsimon.online;8.netsimon.online;9.netsimon.online;10.netsimon.online][crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "mercadolibre.com#www.mercadolivre.com.br#104.18.37.248#13.227.126.39#99.84.31.24#18.67.129.19#172.64.150.8#108.158.172.101#18.64.207.51",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "Tim Recarga Expirada-Valida S2",
+            "Name": "Tim Valido/Expirado S2",
             "FLAG": "tim",
             "Payload": "HTTP/ [crlf][crlf]|[crlf]]]@@@[protocol][crlf] [crlf][crlf]@@@GET / HTTP/1.1[crlf]Host: @[rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forward-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forwarded-For: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.ti",
             "SNI": "",
@@ -97,7 +87,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Tim Recarga Expirada-Valida S1",
+            "Name": "Tim Expirada S1",
             "FLAG": "tim",
             "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
             "SNI": "",
@@ -133,6 +123,26 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "104.18.33.113#162.159.152.26#104.16.239.166#104.19.241.25#104.19.241.93#104.16.53.111#104.18.28.182#209.14.71.31#149.78.185.242",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM 4 valido/expirado",
+            "FLAG": "tim",
+            "Payload": "ACL / HTTP/1.1[crlf]Host: [rotate=149.78.185.242;209.14.71.31][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "149.78.185.242#209.14.71.31",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        }
+        {
+            "Name": "Claro",
+            "FLAG": "claro",
+            "Payload": "[split][lf]PUT http://mercadolivre.com.br HTTP/1.1\nHost: http://mercadolivre.com.br\nUser-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)\r\nReferenciador: http://www.google.com\n \\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "149.78.185.242",
             "ProxyPort": "80",
             "Info": "Proxy"
         }
