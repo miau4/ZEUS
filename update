@@ -135,7 +135,7 @@
             "ProxyIP": "149.78.185.242#209.14.71.31",
             "ProxyPort": "80",
             "Info": "Proxy"
-        }
+        },
         {
             "Name": "Claro",
             "FLAG": "claro",
