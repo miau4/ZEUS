@@ -1,5 +1,4 @@
-
-{ "Version": 10, 
+{ "Version": 11, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -28,17 +27,17 @@
     "Networks": [
         
         {
-            "Name": "Vivo Pré 1",
+            "Name": "Vivo Pré 1 (S2+S3=80)🦄",
             "FLAG": "vivo",
             "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "3.netsimon.online#4.netsimon.online#2.netsimon.online",
+            "ProxyIP": "3.netsimon.online#2.netsimon.online",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Pré 2(s3+s4)",
+            "Name": "Vivo Pré 2 (s3+s3+s4=8080)🐙",
             "FLAG": "vivo",
             "Payload": "[delay_split]PUT http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
             "SNI": "",
@@ -48,7 +47,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Pré S4",
+            "Name": "Vivo Pré 3 (s2+s3+s4=8080)🪼",
             "FLAG": "vivo",
             "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
@@ -58,7 +57,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Planos 1",
+            "Name": "Vivo Planos 1🦭",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=3.netsimon.online;4.netsimon.online;2.netsimon.online][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
@@ -68,7 +67,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Planos 2",
+            "Name": "Vivo Planos 2🦖",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=3.netsimon.online;4.netsimon.online;2.netsimon.online][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
@@ -76,41 +75,11 @@
             "ProxyIP": "assine.vivo.com.br#vigia.vivo.com.br#vivo360.vivo.com.br#legado.vivo.com.br#vivomusica.vivo.com.br#www.mercadolivre.com.br#atendimento.vivo.com.br#api.vivo.com.br#api.store.vivo.com.br#servicos.vivo.com.br#carrinho-pos-familia.vivo.com.br#backoffice-equipamentos01.vivo.com.br#3.netsimon.online#4.netsimon.online#2.netsimon.online",
             "ProxyPort": "80",
             "Info": "Proxy"
-        },
+        },        
         {
-            "Name": "Tim Valido/Expirado S4",
+            "Name": "TIM 1 valido/expirado/Geral✈️",
             "FLAG": "tim",
-            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]@@@[protocol][crlf] [crlf][crlf]@@@GET / HTTP/1.1[crlf]Host: @[rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forward-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forwarded-For: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.ti",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "4.netsimon.online",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "Tim Expirada S3",
-            "FLAG": "tim",
-            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]@@@[protocol][crlf] [crlf][crlf]@@@GET / HTTP/1.1[crlf]Host: @[rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forward-Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;@InterFlashplus;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf]X-Forwarded-For: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.ti",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "3.netsimon.online",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "TIM 1🚅",
-            "FLAG": "tim",
-            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=3.netsimon.online;4.netsimon.online][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.18.33.113#162.159.152.26#104.16.239.166#104.19.241.25#104.19.241.93#104.16.53.111#4.netsimon.online#3.netsimon.online#2.netsimon.online",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "TIM 2 valido/expirado✈️",
-            "FLAG": "tim",
-            "Payload": "ACL / HTTP/1.1[crlf]Host: [rotate=3.netsimon.online;4.netsimon.online;2.netsimon.online][crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "ACL / HTTP/1.1[crlf]Host: timlive.tim.com.br[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "4.netsimon.online#3.netsimon.online#2.netsimon.online",
@@ -118,17 +87,57 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Tim 3🛸",
+            "Name": "TIM 2🚅",
             "FLAG": "tim",
-            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=3.netsimon.online;4.netsimon.online;2.netsimon.online]crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=3.netsimon.online;4.netsimon.online][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "::ffff:104.19.241.93#104.19.241.25#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#104.16.53.111#104.18.28.182#4.netsimon.online#3.netsimon.online#2.netsimon.online",
+            "ProxyIP": "104.18.33.113#162.159.152.26#104.16.239.166#104.19.241.25#104.19.241.93#104.16.53.111#4.netsimon.online#3.netsimon.online",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
-            "Name": "Claro",
+            "Name": "TIM 3🛸",
+            "FLAG": "tim",
+            "Payload": "ACL / HTTP/1.9[crlf]host: mtls.sandbox.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=3.netsimon.online;4.netsimon.online;2.netsimon.online][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.18.33.113",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Tim 4🚁",
+            "FLAG": "tim",
+            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 4.netsimon.online[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "::ffff:104.19.241.93#104.19.241.25#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#104.16.53.111#104.18.28.182#4.netsimon.online#3.netsimon.online",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "TIM 5🎲",
+            "FLAG": "tim",
+            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=no.descomplica.com.br;mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=3.netsimon.online;4.netsimon.online;2.netsimon.online][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.19.241.93",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },        
+        {
+            "Name": "TIM 6 Expirado🏕️",
+            "FLAG": "tim",
+            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "4.netsimon.online#3.netsimon.online#2.netsimon.online",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Claro🌞",
             "FLAG": "claro",
             "Payload": "[split][lf]PUT http://mercadolivre.com.br HTTP/1.1\nHost: http://mercadolivre.com.br\nUser-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)\r\nReferenciador: http://www.google.com\n \\n",
             "SNI": "",
