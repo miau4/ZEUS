@@ -1,4 +1,4 @@
-{ "Version": 15, 
+{ "Version": 16, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -92,14 +92,14 @@
             "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 209.14.71.31[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "104.18.33.113#162.159.152.26#104.16.239.166#104.19.241.25#104.19.241.93#104.16.53.111#149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
+            "ProxyIP": "104.18.33.113#162.159.152.26#104.16.239.166#104.19.241.25#104.19.241.93#104.16.53.111",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
             "Name": "TIM 3🛸",
             "FLAG": "tim",
-            "Payload": "ACL / HTTP/1.9[crlf]host: mtls.sandbox.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 149.78.185.242[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 149.78.185.242[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "104.18.33.113",
@@ -112,7 +112,7 @@
             "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: netsimon.store[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "::ffff:104.19.241.93#104.19.241.25#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#104.16.53.111#149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
+            "ProxyIP": "::ffff:104.19.241.93",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -122,7 +122,7 @@
             "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=no.descomplica.com.br;mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 2.netsimon.store[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "104.19.241.93",
+            "ProxyIP": "104.19.241.25",
             "ProxyPort": "80",
             "Info": "Proxy"
         },        
