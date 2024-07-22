@@ -43,7 +43,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
-            "ProxyPort": "8080",
+            "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
@@ -51,7 +51,7 @@
             "FLAG": "vivo",
             "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentstore.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
-            "TlsIP": "",
+            "TlsIP": "149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
             "ProxyIP": "149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
             "ProxyPort": "8080",
             "Info": "Proxy"
@@ -89,19 +89,19 @@
         {
             "Name": "TIM 2🚅",
             "FLAG": "tim",
-            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 209.14.71.31[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentstore.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.18.33.113#162.159.152.26#104.16.239.166#104.19.241.25#104.19.241.93#104.16.53.111",
+            "TlsIP": "149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
+            "ProxyIP": "149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
             "Name": "TIM 3🛸",
             "FLAG": "tim",
-            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 149.78.185.242[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: netsimon.store[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
-            "TlsIP": "",
+            "TlsIP": "104.18.33.113",
             "ProxyIP": "104.18.33.113",
             "ProxyPort": "80",
             "Info": "Proxy"
@@ -111,8 +111,8 @@
             "FLAG": "tim",
             "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: netsimon.store[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "::ffff:104.19.241.93",
+            "TlsIP": "104.19.241.93",
+            "ProxyIP": "::ffff:104.19.241.93#104.19.241.93",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -121,8 +121,8 @@
             "FLAG": "tim",
             "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=no.descomplica.com.br;mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 2.netsimon.store[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.19.241.25",
+            "TlsIP": "104.19.241.25#162.159.152.26#104.16.239.166",
+            "ProxyIP": "104.19.241.25#162.159.152.26#104.16.239.166",
             "ProxyPort": "80",
             "Info": "Proxy"
         },        
