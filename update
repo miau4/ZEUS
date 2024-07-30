@@ -1,4 +1,4 @@
-{ "Version": 20, 
+{ "Version": 21, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -13,11 +13,11 @@
 "Udp": [ { "Porta": "7100;7200;7300" } ], 
 "Servers":[
         {
-            "Name": "ZEUS💎",
+            "Name": "ZEUS🌋",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "1.netsimon.site",
-            "CheckUser": "http://painel.netsimon.store/checkuser/conecta4g.php",
+            "CheckUser": "http://149.78.185.242:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
@@ -47,6 +47,16 @@
             "Info": "Proxy"
         },
         {
+            "Name": "Vivo Pré 3 rotate",
+            "FLAG": "vivo",
+            "Payload": "[delay_split][lf][rotate=GET;ACL;MERGE;PUT;PATCH] / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "149.78.185.242#209.14.71.31#144.22.162.20#132.226.255.103",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },        
+        {
             "Name": "Vivo-Tim 1",
             "FLAG": "vivo",
             "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate=149.78.185.242;209.14.71.31;104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
@@ -58,7 +68,7 @@
         },
         {
             "Name": "Vivo-Tim 2",
-            "FLAG": "tim",
+            "FLAG": "vivo",
             "Payload": "[delay_split]ACL /wss.html HTTP/1.1[crlf]Host: netsimon.online[crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
@@ -158,11 +168,31 @@
         },
         {
             "Name": "Tim - Vivo 8📡",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "149.78.185.242",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Tim 9 rotate♻️",
+            "FLAG": "tim",
+            "Payload": "[rotate=GET;ACL;MERGE;PUT;PATCH] / HTTP/1.1[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app;no.descomplica.com.br][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.1[crlf]host: [rotate=1.netsimon.site;2.netsimon.site;3.netsimon.site;4.netsimon.site][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "149.78.185.242#::ffff:104.19.241.93#104.19.241.25#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#104.16.53.111#104.18.28.182#mtls",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Tim 10 rotate♻️",
+            "FLAG": "tim",
+            "Payload": "[rotate=GET;ACL;MERGE;PUT;PATCH] / HTTP/1.9[crlf]host: [rotate=mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app;try.deezer.com;support.deezer.com;shop.deezer.com][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: 1.netsimon.site[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "149.78.185.242#2.netsimon.site::ffff:104.19.241.93#104.19.241.25#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#104.16.53.111#104.18.2",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
