@@ -1,4 +1,4 @@
-{ "Version": 25, 
+{ "Version": 26, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -16,7 +16,7 @@
             "Name": "🚀ZEUS🚀",
             "TYPE": "premium",
             "FLAG": "br.png",
-            "ServerIP": "149.78.185.242",
+            "ServerIP": "1.netsimon.shop",
             "CheckUser": "http://painel.netsimon.store/checkuser/conecta4g.php",
             "ServerPort": "22",
             "SSLPort": "443",
@@ -29,7 +29,7 @@
         {
             "Name": "Vivo Pré 1🩷",
             "FLAG": "vivo",
-            "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
+            "Payload": "ACL http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "149.78.185.242",
@@ -53,7 +53,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "152.67.54.212",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
         },
         {
@@ -97,13 +97,13 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo-Tim 2",
+            "Name": "Vivo-Tim 2♻️",
             "FLAG": "vivo",
             "Payload": "[rotate=GET;POST;ACL;MERGE;PUT;DELETE;MKCOL;PATCH;UPGRADE] / HTTP/1.1[crlf]Host: [crlf]X-Forward-Host: [crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "149.78.185.242",
-            "ProxyPort": "8080",
+            "ProxyPort": "80",
             "Info": "Proxy"
         },  
         {
