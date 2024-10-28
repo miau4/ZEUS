@@ -1,4 +1,4 @@
-{ "Version": 26, 
+{ "Version": 27, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -142,7 +142,7 @@
             "Payload": "ACL / HTTP/1.9[crlf]host: [rotate=c6bank.com.br;mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=1.netsimon.store;2.netsimon.store;3.netsimon.store][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "::ffff:104.19.241.93#104.19.241.25#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#104.16.53.111#1.netsimon.store#2.netsimon.store#3.netsimon.store",
+            "ProxyIP": "::ffff:104.19.241.93#104.19.241.25#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#104.16.53.111#149.78.185.242#152.67.54.212#168.75.102.70",
             "ProxyPort": "80",
             "Info": "Proxy"
         },     
@@ -163,16 +163,6 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "172.66.0.157#162.159.140.159",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },     
-        {
-            "Name": "TIM cdn",
-            "FLAG": "tim",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1ke1cvdw93h68.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "104.19.241.93",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -202,7 +192,7 @@
             "Payload": "GET / HTTP/1.1[crlf]Host: timpospromo.com.br[crlf] [crlf]GET / HTTP/1.1[lf]Host: d1ke1cvdw93h68.cloudfront.net[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "d1ke1cvdw93h68.cloudfront.net",
+            "ProxyIP": "13.35.121.85",
             "ProxyPort": "80",
             "Info": "Proxy"
         },     
