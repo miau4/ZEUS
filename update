@@ -1,4 +1,4 @@
-{ "Version": 27, 
+{ "Version": 28, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -182,7 +182,7 @@
             "Payload": "GET / HTTP/1.1[crlf]Host: d1ke1cvdw93h68.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "timpospromo.com.br",
+            "ProxyIP": "timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com",
             "ProxyPort": "80",
             "Info": "Proxy"
         },     
@@ -215,36 +215,6 @@
             "ProxyIP": "149.78.185.242",
             "ProxyPort": "80",
             "Info": "Proxy"
-        },
-        {
-            "Name": "Claro 2",
-            "FLAG": "claro",
-            "Payload": "",
-            "SNI": "c.web.whatsapp.com",
-            "TlsIP": "149.78.185.242",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Ssl"
-        },
-        {
-            "Name": "Claro 3",
-            "FLAG": "claro",
-            "Payload": "",
-            "SNI": "m.twitter.com",
-            "TlsIP": "149.78.185.242",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Ssl"
-        },
-        {
-            "Name": "Claro 4",
-            "FLAG": "claro",
-            "Payload": "",
-            "SNI": "m.waze.com",
-            "TlsIP": "149.78.185.242",
-            "ProxyIP": "",
-            "ProxyPort": "443",
-            "Info": "Ssl"
-        },
+        }
     ]
 }
