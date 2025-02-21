@@ -1,4 +1,4 @@
-{ "Version": 30, 
+{ "Version": 31, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -43,7 +43,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "137.131.150.4",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
         },
         {
@@ -53,7 +53,7 @@
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "152.67.54.212",
-            "ProxyPort": "80",
+            "ProxyPort": "8080",
             "Info": "Proxy"
         },
         {
