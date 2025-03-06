@@ -1,4 +1,4 @@
-{ "Version": 31, 
+{ "Version": 32, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -13,7 +13,7 @@
 "Udp": [ { "Porta": "7100;7200;7300" } ], 
 "Servers":[
         {
-            "Name": "🤍ZEUS",
+            "Name": "🩵ZEUS",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "1.netsimon.shop",
@@ -57,14 +57,24 @@
             "Info": "Proxy"
         },
         {
-            "Name": "Vivo Planos 1🦭",
+            "Name": "Vivo Planos 1🦈",
             "FLAG": "vivo",
-            "Payload": "[rotate=GET;ACL] / HTTP/1.1[crlf]Host: [rotate=149.78.185.242;137.131.150.4][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[lf]Host: [rotate=1.netsimon.store;2.netsimon.store;3.netsimon.store;][lf]Upgrade: Websocket[lf][lf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "104.18.7.41#104.18.37.248#172.64.150.8#assine.vivo.com.br#vigia.vivo.com.br#vivo360.vivo.com.br#legado.vivo.com.br#vivomusica.vivo.com.br#www.mercadolivre.com.br#atendimento.vivo.com.br#api.vivo.com.br#api.store.vivo.com.br#servicos.vivo.com.br#carrinho-pos-familia.vivo.com.br#backoffice-equipamentos01.vivo.com.br",
+            "ProxyIP": "188.114.99.229#104.26.12.205#104.26.13.205#172.67.74.152",
             "ProxyPort": "80",
             "Info": "Proxy"
+        },
+        {
+            "Name": "Vivo Planos 2🪼",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[lf]Host: 1.netsimon.store[lf]Upgrade: Websocket[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "188.114.99.229#104.26.12.205#104.26.13.205#172.67.74.152",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
         },
         {
             "Name": "Vivo-Tim 1",
@@ -92,7 +102,7 @@
             "Payload": "PATCH / HTTP/1.1[crlf]Host: [rotate=1.netsimon.shop;2.netsimon.store;3.netsimon.store][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#152.67.54.212",
+            "ProxyIP": "149.78.185.242#152.67.54.212#137.131.150.4",
             "ProxyPort": "80",
             "Info": "Proxy"
         },   
@@ -102,7 +112,7 @@
             "Payload": "ACL / HTTP/1.1[crlf]Host: timofertas.com[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "152.67.54.212",
+            "ProxyIP": "149.78.185.242#152.67.54.212#137.131.150.4",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -157,7 +167,7 @@
             "Info": "Proxy"
         },    
         {
-            "Name": "Tim DDD 91",
+            "Name": "Tim cdn",
             "FLAG": "tim",
             "Payload": "GET / HTTP/1.1[crlf]Host: timpospromo.com.br[crlf] [crlf]GET / HTTP/1.1[lf]Host: d1ke1cvdw93h68.cloudfront.net[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
             "SNI": "",
