@@ -1,4 +1,4 @@
-{ "Version": 32, 
+{ "Version": 33, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -77,12 +77,23 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "Vivo-Tim 1",
+            "Name": "Vivo Planos 3",
             "FLAG": "vivo",
-            "Payload": "[delay_split][lf][rotate=GET;ACL] / HTTP/1.1[crlf]Host:[rotate=104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-            "SNI": "[app_host]",
-            "TlsIP": "[app_host]",
-            "ProxyIP": "149.78.185.242",
+            "Payload": "[random=GET;ACL;MKCOL;PATCH;PUT;POST;UPGRADE] / HTTP/1.1[crlf]Host: [rotate=1.netsimon.store;2.netsimon.store;3.netsimon.store][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "188.114.99.229#104.26.12.205#104.26.13.205#172.67.74.152",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "Vivo Planos 4",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: 1.netsimon.store[crlf]Connection: Upgrade[crlf]
+Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.17.72.206#104.17.70.206#104.17.73.206#104.17.71.206#escolas.playwaze.com#ftp.chillwaze.com#bucs.playwaze.com#141.193.213.10#172.64.150.8#104.18.7.41#104.18.37.248#assine.vivo.com.br#vigia.vivo.com.br#vivo360.vivo.com.br#legado.vivo.com.br#vivomusica.vivo.com.br#www.mercadolivre.com.br#atendimento.vivo.com.br#api.vivo.com.br#api.store.vivo.com.br#servicos.vivo.com.br#carrinho-pos-familia.vivo.com.br#backoffice-equipamentos01.vivo.com.br#pinterest.com#donations.livestream.com#149.78.185.242#137.131.150.4#152.67.54.212#api.anghami.com",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -177,12 +188,12 @@
             "Info": "Proxy"
         },     
         {
-            "Name": "TIM DDD 13/Outras Regioes🏕️",
+            "Name": "TIM NOVA DDD 13",
             "FLAG": "tim",
-            "Payload": "HTTP/ [crlf][crlf]|[crlf]]]",
+            "Payload": "HTTP/ 2\nHost: m.opera.com\n\n",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#152.67.54.212#137.131.150.4",
+            "ProxyIP": "152.67.54.212#137.131.150.4",
             "ProxyPort": "80",
             "Info": "Proxy"
         }
