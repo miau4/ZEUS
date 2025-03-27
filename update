@@ -1,4 +1,4 @@
-{ "Version": 35, 
+{ "Version": 36, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -167,7 +167,17 @@
             "Info": "Proxy"
         },     
         {
-            "Name": "TIM NOVA DDD 131️⃣",
+            "Name": "TIM DDD 131️⃣",
+            "FLAG": "tim",
+            "Payload": "HTTP/ 2\nHost: plus.google.com\n\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "149.78.185.242",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },     
+        {
+            "Name": "TIM DDD 132️⃣",
             "FLAG": "tim",
             "Payload": "HTTP/ 2\nHost: plus.google.com\n\n",
             "SNI": "",
@@ -177,9 +187,9 @@
             "Info": "Proxy"
         },     
         {
-            "Name": "TIM NOVA DDD 132️⃣",
+            "Name": "TIM DDD 133️⃣",
             "FLAG": "tim",
-            "Payload": "SEARCH HTTP/1.1Host: [lf][lf]",
+            "Payload": "HTTP/ 2\nHost: m.opera.com\n\n",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "149.78.185.242#152.67.54.212#137.131.150.4",
