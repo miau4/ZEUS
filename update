@@ -1,4 +1,4 @@
-{ "Version": 40, 
+{ "Version": 41, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -13,7 +13,7 @@
 "Udp": [ { "Porta": "7100;7200;7300" } ], 
 "Servers":[
         {
-            "Name": "⚡ZEUS",
+            "Name": "⚡ZEUS⚡",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "1.netsimon.shop",
