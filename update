@@ -1,4 +1,4 @@
-{ "Version": 37, 
+{ "Version": 38, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -69,20 +69,20 @@
         {
             "Name": "Vivo Planos 1♦️",
             "FLAG": "vivo",
-            "Payload": "[random=GET;ACL;MKCOL;PATCH;PUT;POST;UPGRADE] / HTTP/1.1[crlf]Host: [rotate=1.netsimon.store;2.netsimon.store][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=1.netsimon.store;2.netsimon.store][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "escolas.playwaze.com#ftp.chillwaze.com#bucs.playwaze.com#assine.vivo.com.br#vigia.vivo.com.br#vivo360.vivo.com.br#legado.vivo.com.br#vivomusica.vivo.com.br#www.mercadolivre.com.br#atendimento.vivo.com.br#api.vivo.com.br#api.store.vivo.com.br#servicos.vivo.com.br#carrinho-pos-familia.vivo.com.br#backoffice-equipamentos01.vivo.com.br#pinterest.com#donations.livestream.com##api.anghami.com#timofertas.com#apf.maisvantagenstim.com.br#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com",
+            "ProxyIP": "escolas.playwaze.com#ftp.chillwaze.com#bucs.playwaze.com#141.193.213.10#172.64.150.8#104.18.7.41#104.18.37.248#assine.vivo.com.br#vigia.vivo.com.br#vivo360.vivo.com.br#legado.vivo.com.br#vivomusica.vivo.com.br#www.mercadolivre.com.br#atendimento.vivo.com.br#api.vivo.com.br#api.store.vivo.com.br#servicos.vivo.com.br#carrinho-pos-familia.vivo.com.br#backoffice-equipamentos01.vivo.com.br#pinterest.com#donations.livestream.com#api.anghami.com#timofertas.com#apf.maisvantagenstim.com.br#172.66.0.157#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
             "Name": "Vivo Planos 2♦️",
             "FLAG": "vivo",
-            "Payload": "[random=GET;ACL;MKCOL;PATCH;PUT;POST;UPGRADE] / HTTP/1.1[crlf]Host: [rotate=1.netsimon.store;2.netsimon.store;3.netsimon.store][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=1.netsimon.store;2.netsimon.store;3.netsimon.store][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "escolas.playwaze.com#ftp.chillwaze.com#bucs.playwaze.com#assine.vivo.com.br#vigia.vivo.com.br#vivo360.vivo.com.br#legado.vivo.com.br#vivomusica.vivo.com.br#www.mercadolivre.com.br#atendimento.vivo.com.br#api.vivo.com.br#api.store.vivo.com.br#servicos.vivo.com.br#carrinho-pos-familia.vivo.com.br#backoffice-equipamentos01.vivo.com.br#pinterest.com#donations.livestream.com##api.anghami.com#timofertas.com#apf.maisvantagenstim.com.br#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com",
+            "ProxyIP": "104.17.72.206#104.17.70.206#104.17.73.206#104.17.71.206#escolas.playwaze.com#ftp.chillwaze.com#bucs.playwaze.com#141.193.213.10#172.64.150.8#104.18.7.41#104.18.37.248#assine.vivo.com.br#vigia.vivo.com.br#vivo360.vivo.com.br#legado.vivo.com.br#vivomusica.vivo.com.br#www.mercadolivre.com.br#atendimento.vivo.com.br#api.vivo.com.br#api.store.vivo.com.br#servicos.vivo.com.br#carrinho-pos-familia.vivo.com.br#backoffice-equipamentos01.vivo.com.br#pinterest.com#donations.livestream.com#149.78.185.242#137.131.150.4#152.67.54.212#api.anghami.com#timofertas.com#apf.maisvantagenstim.com.br#172.66.0.157#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#152.67.54.212#137.131.150.4#149.78.185.242",
             "ProxyPort": "8080",
             "Info": "Proxy"
         },
