@@ -1,10 +1,10 @@
-{ "Version": 42, 
+{ "Version": 43, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
 "Sms": "", 
 "logoonline": "https://i.ibb.co/ccC6BNw/ei-1699404424073-removebg-preview.png", 
-"fundoonline": "https://i.pinimg.com/736x/1c/b1/3a/1cb13a844a388a993f6d5e89fea92fb3.jpg", 
+"fundoonline": "https://i.pinimg.com/736x/85/c4/96/85c49639efac4ee693305bd441a34ca2.jpg", 
 "fundoDoLogonline": false, 
 "EmailFeedback": "", 
 "UrlContato": "", 
@@ -13,7 +13,7 @@
 "Udp": [ { "Porta": "7100;7200;7300" } ], 
 "Servers":[
         {
-            "Name": "⚡ZEUS",
+            "Name": "🛰️ZEUS🛰️",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "1.netsimon.shop",
@@ -27,7 +27,7 @@
     "Networks": [
         
         {
-            "Name": "Vivo/Tim❤️",
+            "Name": "Vivo/Tim Geral",
             "FLAG": "vivo",
             "Payload": "[rotate=SEARCH;PATCH;ACL;MKCOL;PROPPATCH;MKCOL;COPY;MOVE;LOCK;UNLOCK;ORDERPATCH] /index.html HTTP/1.1[crlf]Host: [rotate=vs.timrecompensas.com.br;1.netsimon.store;2.netsimon.store;3.netsimon.store;revive.timrecompensas.com.br;d1ke1cvdw93h68.cloudfront.net;d1ke1cvdw93h68.cloudfront.net;proxy.netsimon.store;proxy2.netsimon.store;proxy3.netsimon.store][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
@@ -84,6 +84,26 @@
             "TlsIP": "",
             "ProxyIP": "162.159.140.159",
             "ProxyPort": "8080",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Vivo sem login na rede🌟",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[lf]Host: [rotate=1.netsimon.store;2.netsimon.store;3.netsimon.store][lf]Upgrade: Websocket[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "188.114.99.229#104.26.12.205#104.26.13.205#172.67.74.152",
+            "ProxyPort": "8080",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Vivo sem login na rede 2",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[lf]Host: [rotate=1.netsimon.store;2.netsimon.store][lf]Upgrade: Websocket[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "149.78.185.242#137.131.150.4#vs.timrecompensas.com.br#portal.timrecompensas.com.br#revive.timrecompensas.com.br#timofertas.com#apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#172.66.0.157#104.19.240.93#104.26.12.205#blog.vivo-empresa.com",
+            "ProxyPort": "80",
             "Info": "Proxy"
         },
         {
@@ -145,34 +165,34 @@
             "ProxyIP": "172.66.0.157#162.159.140.159",
             "ProxyPort": "80",
             "Info": "Proxy"
-        },
+        },     
+        {
+            "Name": "Tim ddd 21/61/outros",
+            "FLAG": "tim",
+            "Payload": "[split][crlf]MOVE / HTTP/1.1[crlf]Host: bounce.mail.planos.tim.com.br[crlf][crlf][split]GET- / HTTP/1.1[crlf]Host:[app_host][crlf] [crlf]GET /top HTTP/1.1[crlf]Host: [rotate=d1ke1cvdw93h68.cloudfront.net;di5it5culkaw5.cloudfront.net][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][split][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "bounce.mail.planos.tim.com.br#d1ke1cvdw93h68.cloudfront.net#di5it5culkaw5.cloudfront.net",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },  
         {
             "Name": "TIM DDD 131️⃣",
             "FLAG": "tim",
             "Payload": "HTTP/ 2\nHost: plus.google.com\n\n",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242",
+            "ProxyIP": "149.78.185.242#137.131.150.4",
             "ProxyPort": "80",
             "Info": "Proxy"
         },     
         {
             "Name": "TIM DDD 132️⃣",
             "FLAG": "tim",
-            "Payload": "HTTP/ 2\nHost: plus.google.com\n\n",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "149.78.185.242#152.67.54.212#137.131.150.4",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },     
-        {
-            "Name": "TIM DDD 133️⃣",
-            "FLAG": "tim",
             "Payload": "HTTP/ 2\nHost: m.opera.com\n\n",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#152.67.54.212#137.131.150.4",
+            "ProxyIP": "149.78.185.242#137.131.150.4",
             "ProxyPort": "80",
             "Info": "Proxy"
         }
