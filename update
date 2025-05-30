@@ -1,4 +1,4 @@
-{ "Version": 44, 
+{ "Version": 45, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
@@ -32,7 +32,7 @@
             "Payload": "[rotate=SEARCH;PATCH;ACL;MKCOL;PROPPATCH;MKCOL;COPY;MOVE;LOCK;UNLOCK;ORDERPATCH] /index.html HTTP/1.1[crlf]Host: [rotate=vs.timrecompensas.com.br;1.netsimon.store;2.netsimon.store;3.netsimon.store;revive.timrecompensas.com.br;d1ke1cvdw93h68.cloudfront.net;d1ke1cvdw93h68.cloudfront.net;proxy.netsimon.store;proxy2.netsimon.store;proxy3.netsimon.store][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "172.66.0.157#104.19.240.93#104.26.12.205#vs.timrecompensas.com.br#portal.timrecompensas.com.br#revive.timrecompensas.com.br#timofertas.com#apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#152.67.54.212#137.131.150.4#149.78.185.242#proxy.netsimon.store#proxy2.netsimon.store#proxy3.netsimon.store",
+            "ProxyIP": "172.66.0.157#104.26.12.205#vs.timrecompensas.com.br#portal.timrecompensas.com.br#revive.timrecompensas.com.br#timofertas.com#apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#136.248.85.243#137.131.150.4#149.78.185.242#proxy.netsimon.store#proxy2.netsimon.store#proxy3.netsimon.store",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -52,7 +52,7 @@
             "Payload": "[delay_split][lf]ACL http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "152.67.54.212#137.131.150.4#149.78.185.242",
+            "ProxyIP": "136.248.85.243#137.131.150.4#149.78.185.242",
             "ProxyPort": "8080",
             "Info": "Proxy"
         },
@@ -62,7 +62,7 @@
             "Payload": "[delay_split][lf][rotate=GET;ACL;POST;PUT;PATCH] / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "152.67.54.212#137.131.150.4#149.78.185.242",
+            "ProxyIP": "136.248.85.243#137.131.150.4#149.78.185.242",
             "ProxyPort": "8080",
             "Info": "Proxy"
         },
