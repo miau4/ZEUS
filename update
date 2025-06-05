@@ -1,10 +1,15 @@
-{ "Version": 45, 
+
+
+
+
+
+{ "Version": 46, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
 "Sms": "", 
 "logoonline": "https://i.ibb.co/ccC6BNw/ei-1699404424073-removebg-preview.png", 
-"fundoonline": "https://i.pinimg.com/736x/79/76/a1/7976a17a34156be847621a065d82d7a9.jpg", 
+"fundoonline": "https://i.pinimg.com/736x/e4/e5/45/e4e5457eae13fe7943661883f7ff1477.jpg", 
 "fundoDoLogonline": false, 
 "EmailFeedback": "", 
 "UrlContato": "", 
@@ -13,7 +18,7 @@
 "Udp": [ { "Porta": "7100;7200;7300" } ], 
 "Servers":[
         {
-            "Name": "ZEUS🎉",
+            "Name": "ZEUS📱",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "1.netsimon.shop",
@@ -32,7 +37,7 @@
             "Payload": "[rotate=SEARCH;PATCH;ACL;MKCOL;PROPPATCH;MKCOL;COPY;MOVE;LOCK;UNLOCK;ORDERPATCH] /index.html HTTP/1.1[crlf]Host: [rotate=vs.timrecompensas.com.br;1.netsimon.store;2.netsimon.store;3.netsimon.store;revive.timrecompensas.com.br;d1ke1cvdw93h68.cloudfront.net;d1ke1cvdw93h68.cloudfront.net;proxy.netsimon.store;proxy2.netsimon.store;proxy3.netsimon.store][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "172.66.0.157#104.26.12.205#vs.timrecompensas.com.br#portal.timrecompensas.com.br#revive.timrecompensas.com.br#timofertas.com#apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#136.248.85.243#137.131.150.4#149.78.185.242#proxy.netsimon.store#proxy2.netsimon.store#proxy3.netsimon.store",
+            "ProxyIP": "172.66.0.157#104.26.12.205#vs.timrecompensas.com.br#portal.timrecompensas.com.br#revive.timrecompensas.com.br#timofertas.com#apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#136.248.85.243#144.22.230.41#149.78.185.242#proxy.netsimon.store#proxy2.netsimon.store#proxy3.netsimon.store",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -42,7 +47,7 @@
             "Payload": "ACL http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "137.131.150.4#149.78.185.242",
+            "ProxyIP": "144.22.230.41#149.78.185.242",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -52,7 +57,7 @@
             "Payload": "[delay_split][lf]ACL http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "136.248.85.243#137.131.150.4#149.78.185.242",
+            "ProxyIP": "136.248.85.243#144.22.230.41#149.78.185.242",
             "ProxyPort": "8080",
             "Info": "Proxy"
         },
@@ -62,7 +67,7 @@
             "Payload": "[delay_split][lf][rotate=GET;ACL;POST;PUT;PATCH] / HTTP/1.1[lf]Host: [rotate=portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "136.248.85.243#137.131.150.4#149.78.185.242",
+            "ProxyIP": "136.248.85.243#144.22.230.41#149.78.185.242",
             "ProxyPort": "8080",
             "Info": "Proxy"
         },
@@ -102,7 +107,7 @@
             "Payload": "GET / HTTP/1.1[lf]Host: [rotate=1.netsimon.store;2.netsimon.store][lf]Upgrade: Websocket[lf][lf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#137.131.150.4#vs.timrecompensas.com.br#portal.timrecompensas.com.br#revive.timrecompensas.com.br#timofertas.com#apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#172.66.0.157#104.19.240.93#104.26.12.205#blog.vivo-empresa.com",
+            "ProxyIP": "149.78.185.242#144.22.230.41#vs.timrecompensas.com.br#portal.timrecompensas.com.br#revive.timrecompensas.com.br#timofertas.com#apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai#cdn2.webdamdb.com#172.66.0.157#104.19.240.93#104.26.12.205#blog.vivo-empresa.com",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -112,7 +117,7 @@
             "Payload": "PATCH / HTTP/1.1[crlf]Host: [rotate=1.netsimon.shop;2.netsimon.store;3.netsimon.store][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#137.131.150.4",
+            "ProxyIP": "149.78.185.242#144.22.230.41",
             "ProxyPort": "80",
             "Info": "Proxy"
         },   
@@ -122,7 +127,7 @@
             "Payload": "ACL / HTTP/1.1[crlf]Host: timofertas.com[crlf]Upgrade: websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#137.131.150.4",
+            "ProxyIP": "149.78.185.242#144.22.230.41",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -152,7 +157,7 @@
             "Payload": "[rotate=SEARCH;PATCH;PROPPATCH;MKCOL;COPY;MOVE;LOCK;UNLOCK;ORDERPATCH] / HTTP/1.1[crlf]Host: [lf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#137.131.150.4",
+            "ProxyIP": "149.78.185.242#144.22.230.41",
             "ProxyPort": "80",
             "Info": "Proxy"
         },     
@@ -182,7 +187,7 @@
             "Payload": "HTTP/ 2\nHost: plus.google.com\n\n",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#137.131.150.4",
+            "ProxyIP": "149.78.185.242#144.22.230.41",
             "ProxyPort": "80",
             "Info": "Proxy"
         },     
@@ -192,7 +197,7 @@
             "Payload": "HTTP/ 2\nHost: m.opera.com\n\n",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "149.78.185.242#137.131.150.4",
+            "ProxyIP": "149.78.185.242#144.22.230.41",
             "ProxyPort": "80",
             "Info": "Proxy"
         }
