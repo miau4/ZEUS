@@ -1,10 +1,10 @@
-{ "Version": 50, 
+{ "Version": 52, 
 "ZEUS": false, 
 "ReleaseNotes": "Netsimon Internet Ilimitada",
 "UrlUpdate": "https://raw.githubusercontent.com/miau4/ZEUS/main/update", 
 "Sms": "", 
 "logoonline": "https://i.ibb.co/ccC6BNw/ei-1699404424073-removebg-preview.png", 
-"fundoonline": "https://i.pinimg.com/736x/b0/01/31/b001319d62d18b23029671c1e6930401.jpg", 
+"fundoonline": "https://i.ibb.co/vx12XT12/imagem-2025-11-06-142100907.png", 
 "fundoDoLogonline": false, 
 "EmailFeedback": "", 
 "UrlContato": "", 
@@ -52,7 +52,7 @@
             "Payload": "ACL http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "144.22.230.41#149.78.185.242",
+            "ProxyIP": "144.22.230.41#149.78.185.242#168.138.128.17",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -89,10 +89,20 @@
         {
             "Name": "Vivo Planos 2♦️",
             "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=1.netsimon.fun;2.netsimon.fun][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=1.netsimon.fun;2.netsimon.fun;3.netsimon.fun][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "apf.maisvantagenstim.com.br#162.159.140.159#timbrasil.widen.net#builder.lift.acquia.com#cdn-prod.securiti.ai",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "Vivo Planos 3♦️",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[lf]Host: [rotate=1.netsimon.fun;2.netsimon.fun;3.netsimon.fun][lf]Upgrade: Websocket[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "188.114.99.229#104.26.12.205#104.26.13.205#172.67.74.152#168.138.128.17#162.159.140.159",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
@@ -112,7 +122,7 @@
             "Payload": "[rotate=SEARCH;PATCH;PROPPATCH;MKCOL;COPY;MOVE;LOCK;UNLOCK;ORDERPATCH] / HTTP/1.9[crlf]host: [rotate=c6bank.com.br;mtls.sandbox.c6bank.com.br;assets.c6bank.app;pre-onboarding-p.c6bank.app][crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [rotate=1.netsimon.fun;2.netsimon.fun;3.netsimon.fun][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "104.19.241.25#104.18.28.182#::ffff:104.19.241.93#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166",
+            "ProxyIP": "104.19.241.25#104.18.28.182#::ffff:104.19.241.93#104.18.33.113#104.19.241.93#162.159.152.26#104.16.239.166#149.78.185.242",
             "ProxyPort": "80",
             "Info": "Proxy"
         }, 
